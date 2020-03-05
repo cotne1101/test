@@ -11,7 +11,7 @@ namespace test
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("shemoitanet useris saxeli da passwordi");
+            Console.WriteLine("cin username and password");
             string username = Console.ReadLine();
             string pass = Console.ReadLine();
             Authorization a = new Authorization(username, pass);
